@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-    ?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_main"
@@ -10,7 +9,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context="com.example.othmane.myapplication.MainActivity"
     android:weightSum="1">
 
     <ScrollView
@@ -128,16 +126,15 @@
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
 
 
-            <ToggleButton
+            <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="22dp"
                 android:layout_marginStart="22dp"
                 android:layout_marginBottom="33dp"
-                android:id="@+id/toggleButton2"
+                android:id="@+id/submitButton"
                 android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-                android:textOff="SET"
-                android:textOn="EDIT" />
+                android:text="SET"/>
 
         </LinearLayout>
 
